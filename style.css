@@ -1,41 +1,44 @@
  html, body{
     height: 100%;
+    margin: 0;  
 }
 body{
-    display: flex;   
+    display: flex;    
     background-color: rgb(210, 214, 218);
     justify-content: center;
     align-items: center; 
 }  
  .tic_tac_toe{
-    width: 390px;
-    height: 844px;
+    width: 39vh;  
+    max-height: 844px;
+    height: 85vh; 
     background: white; 
     display: flex;    
     flex-direction: column; 
     align-items: center;  
     justify-content: space-around;
-    gap: 20px;
-    padding: 20px 0;
+    gap: 2vh; 
+    padding: 2vh 0; 
     border-radius: 20px; 
+    overflow: hidden; 
 }
  h1{
     background: white;
     color: #0057ff;
     font-family: 'Roboto';
     font-weight: 600; 
-    font-size: 36px;
-    line-height: 42.19px; 
-    text-align: center;
+    font-size: 3.8vh;
+    margin: 0;  
 }  
 .header_line{
+    display: flex;
     width:80%;
-    height:12px;
+    height:1vh;
     background-color: #ff0000;
     border-radius: 20px;
-    margin: 0 auto;
+    margin: 1vh auto;
     position: relative; 
-    bottom:10%;  
+    bottom:10%;    
 }
 .two_cards{
     width: 100%; 
@@ -44,80 +47,62 @@ body{
     justify-content: space-around; 
     align-items: center;
     font-weight: 400; 
-    font-size: 16px;
-    line-height: 18.75px; 
-    margin-bottom: 30px;
+    font-size: 1.8vh;
+    margin-bottom: 2.5vh;
 }
-.you{
+.you, .playa{
     display: flex;
     flex-direction: column; 
     align-items: center;  
     justify-content: space-around;   
-    width: 121px;
-    height: 177px;
+    width: 38%;
+    height: 18vh;
     background-color: #0057ff;
     color: white;
     border-radius: 10px;
 }
+.playa{
+    background-color: #ef5f5f;
+} 
 img{
-    width: 73px;
-    height: 86.26px;
+    width: 8vh;
+    height: 9vh;
     border-radius: 268.5px;
 }
 .line{
-    width: 77px;
-    height: 2.24px;
-    background-color: white; 
+    width: 70%;
+    height: 0.2vh;
+    background-color: white;
 }
 .x{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x1, .x2{
+    width: 0.8vh;
+    height: 4vh;
+    background-color: #ff0000;
+    position: relative;
 }
 .x1{
-    width: 8.01px;
-    height: 41.31px;
-    background-color: #ff0000;
     rotate: 155deg; 
-    position: relative; 
     left: 25%; 
 }
 .x2{
-    width: 8.01px;
-    height: 41.02px;
-    background-color: #ff0000;
     rotate: 25deg;
-    position: relative;
     right: 25%;  
 }    
-.playa{
-    display:flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;    
-    width: 121px;
-    height: 175.89px;
-    background-color: #ef5f5f;
-    color:white;
-    border-radius: 10px; 
-}
- .playa img{
-    width: 88px;
-    height: 90px;
-    border-radius: 139.5px;
-}
- .playa .line{
-    width:77px;
-    height: 2.23px;
-} 
  .o{
-    width: 25.96px;
-    height: 25.96px;
-    border: 5px solid blue;
+    width: 2.5vh;
+    height: 2.5vh;
+    border: 0.5vh solid blue;
     border-radius: 50%;
 }   
 .board{
     display: flex;
-    width: 344px;
-    height: 419px;
+    width: 35vh;
+    height: 43vh;
     background-image: linear-gradient(#ff0000,#0080f6);
     border-radius:20px;
     border: 1px solid black; 
@@ -128,32 +113,30 @@ img{
 }
 .board > div{
     display: flex;
-    width: 93px;
-    height: 103px;
+    width: 9.3vh;
+    height: 10.3vh;
     background: white;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
 }
 .o_board{
-    width: 41.93px;
-    height: 40.44px;
-    border: 6px solid blue;
+    width: 4.2vh;
+    height: 4vh;
+    border: 0.6vh solid blue;
     border-radius: 50%;
 }
-.x1_board{
+.x1_board, .x2_board{
     position: relative;
-    width:19.89px;
-    height: 84.59px;
+    width:2vh;
+    height: 8.5vh;
     background-color: #ff0000;
+}
+.x1_board{
     rotate: 30deg;
-    top: 40px;
+    top: 4vh;
 }
 .x2_board{
-    position: relative;
-    width: 20.32px;
-    height: 81.14px;
-    background-color: red;
     rotate: 145deg;
-    bottom: 42px;
+    bottom: 4.2vh;
 } 
