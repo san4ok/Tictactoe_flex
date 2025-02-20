@@ -1,0 +1,159 @@
+ html, body{
+    height: 100%;
+}
+body{
+    display: flex;   
+    background-color: rgb(210, 214, 218);
+    justify-content: center;
+    align-items: center; 
+}  
+ .tic_tac_toe{
+    width: 390px;
+    height: 844px;
+    background: white; 
+    display: flex;    
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 0;
+    border-radius: 20px; 
+}
+ h1{
+    background: white;
+    color: #0057ff;
+    font-family: 'Roboto';
+    font-weight: 600; 
+    font-size: 36px;
+    line-height: 42.19px; 
+    text-align: center;
+}  
+.header_line{
+    width:80%;
+    height:12px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative; 
+    bottom:10%;  
+}
+.two_cards{
+    width: 100%; 
+    background-color: white;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 18.75px; 
+    margin-bottom: 30px;
+}
+.you{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: space-around;   
+    width: 121px;
+    height: 177px;
+    background-color: #0057ff;
+    color: white;
+    border-radius: 10px;
+}
+img{
+    width: 73px;
+    height: 86.26px;
+    border-radius: 268.5px;
+}
+.line{
+    width: 77px;
+    height: 2.24px;
+    background-color: white; 
+}
+.x{
+    display: flex;
+}
+.x1{
+    width: 8.01px;
+    height: 41.31px;
+    background-color: #ff0000;
+    rotate: 155deg; 
+    position: relative; 
+    left: 25%; 
+}
+.x2{
+    width: 8.01px;
+    height: 41.02px;
+    background-color: #ff0000;
+    rotate: 25deg;
+    position: relative;
+    right: 25%;  
+}    
+.playa{
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+    width: 121px;
+    height: 175.89px;
+    background-color: #ef5f5f;
+    color:white;
+    border-radius: 10px; 
+}
+ .playa img{
+    width: 88px;
+    height: 90px;
+    border-radius: 139.5px;
+}
+ .playa .line{
+    width:77px;
+    height: 2.23px;
+} 
+ .o{
+    width: 25.96px;
+    height: 25.96px;
+    border: 5px solid blue;
+    border-radius: 50%;
+}   
+.board{
+    display: flex;
+    width: 344px;
+    height: 419px;
+    background-image: linear-gradient(#ff0000,#0080f6);
+    border-radius:20px;
+    border: 1px solid black; 
+    box-shadow: 0 4px 4px 0;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.board > div{
+    display: flex;
+    width: 93px;
+    height: 103px;
+    background: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.o_board{
+    width: 41.93px;
+    height: 40.44px;
+    border: 6px solid blue;
+    border-radius: 50%;
+}
+.x1_board{
+    position: relative;
+    width:19.89px;
+    height: 84.59px;
+    background-color: #ff0000;
+    rotate: 30deg;
+    top: 40px;
+}
+.x2_board{
+    position: relative;
+    width: 20.32px;
+    height: 81.14px;
+    background-color: red;
+    rotate: 145deg;
+    bottom: 42px;
+} 
